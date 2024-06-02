@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soal.ku!</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to bottom, #add8e6 50%, #00008b 30%, #ffffff 20%);
+        }
+
+        .marquee {
+            width: 100%;
+            background: yellow;
+            color: black;
+            font-size: 24px;
+            padding: 10px;
+            box-sizing: border-box;
+            white-space: nowrap;
+            overflow: hidden;
+        }
+
+        .marquee div {
+            display: inline-block;
+            padding-left: 100%;
+            animation: marquee 10s linear infinite;
+        }
+
+        @keyframes marquee {
+            from { transform: translate(0, 0); }
+            to { transform: translate(-100%, 0); }
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .box {
+            background: linear-gradient(135deg, #1e90ff, #32cd32);
+            color: white;
+            padding: 20px;
+            font-size: 18px;
+            text-align: center;
+            cursor: pointer;
+            border-radius: 10px;
+            width: 200px;
+            transition: transform 0.3s;
+        }
+
+        .box:hover {
+            transform: scale(1.1);
+        }
+
+        .settings {
+            position: fixed;
+            top: 10px;
+            left: 10px;
+        }
+
+        .settings button {
+            font-size: 16px;
+            padding: 10px;
+            cursor: pointer;
+        }
+
+        .world-clock {
+            position: fixed;
+            bottom: 10px;
+            right: 10px;
+            font-size: 20px;
+            color: white;
+        }
+
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 1;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            overflow: auto;
+            background-color: rgba(0, 0, 0, 0.4);
+        }
+
+        .modal-content {
+            background-color: #fefefe;
+            margin: 15% auto;
+            padding: 20px;
+            border: 1px solid #888;
+            width: 80%;
+            max-width: 500px;
+        }
+
+        .close {
+            color: #aaa;
+            float: right;
+            font-size: 28px;
+            font-weight: bold;
+        }
+
+        .close:hover,
+        .close:focus {
+            color: black;
+            text-decoration: none;
+            cursor: pointer;
+        }
+
+        .about-content {
+            text-align: center;
+            padding: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div class="marquee">
+        <div>Selamat datang di website soal.ku!.com</div>
+    </div>
+    <div class="container">
+        <div class="box" onclick="window.location.href='link1.html'">
+            Soal kisi kisi pkn 5 nomor
+        </div>
+        <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <div class="box" onclick="window.location.href='https://docs.google.com/forms/d/e/1FAIpQLSfgtcvJJ9a4hcnj34GhUtVmt802vVu-6sTFhnmG7p7DEwkVXg/viewform?usp=sharing'">
+        Soal kisi kisi agama 5 nomor 
+        </div>
+        <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>soal.ku!.com</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <marquee behavior="scroll" direction="left">Selamat datang di website soal.ku!.com,untuk mata pelajaran pkn masih belum tersedia jadi mohon tunggu hingga tanggal 3 juni untuk update selanjutnya !</marquee>
+
+    <div class="container">
+        <div class="box" onclick="location.href='https://forms.gle/yhgwG9GwZSFXP1KG6';">
+            <h2>Soal pendukung non reborn</h2>
+        </div>
+        <div class="box" onclick="location.href='https://docs.google.com/forms/d/e/1FAIpQLSeQP-_MCPRFWKcrVEfDGArljJ8iLKr_bKDlhIfKO-A7zbQCUQ/viewform?usp=sf_link';">
+            <h2>Soal kisi kisi ipa kls 7 akhir</h2>
+        </div>
+        <div class="box" onclick="location.href='https://quizizz.com/admin/quiz/5dba7d989bb6ce001a0b6c0f/teka-teki-lucu';">
+            <h2>Soal quizz teka teki</h2>
+        </div>
+        <div class="box" onclick="location.href='https://quizizz.com/admin/quiz/5dba7d989bb6ce001a0b6c0f/teka-teki-lucu';">
+            <h2>Soal teka teki untuk menghilangkan stress</h2>
+        </div>
+        <div class="box" onclick="location.href='https://forms.gle/TRMf7ZT3iY7Td6aXA';">
+            <h2>Soal pendukung ujian akhir </h2>
+        </div>
+    </div>
+
+    <div class="settings">
+        <button onclick="showSettings()">Settings</button>
+        <div id="settingsMenu">
+            <p>Versi web: 1.0 (terakhir diperbarui: 01 Juni 2024)</p>
+            
+        </div>
+    </div>
+
+    <div class="pusat bantuan">
+        <a href="file:///E:/website%20natural/pusat%20bantuan.html">FAQ kami / pusat bantuan</a>
+    </div>
+
+    <div class="specialThanks">
+        <h2>Special Thanks</h2>
+        <marquee behavior="scroll" direction="left">Segarkan lagi halaman ini jika ada terjadi masalah pada web ini!,jika ada masalah tolong tekan kalimat FAQ UNTUK PENYELESAIAN permasalahan yang terjadi di web ini ya !</marquee>
+        <ul>
+            <li>bastian 7-2</li>
+            <li>gracia 7-2</li>
+            <li>joshep 7-2</li>
+            <li>shanon 7-3</li>
+            <li>mau nama mu ada di sini ? yuk bergabung dengan kami untuk mengembangkan web ini !</li>
+        </ul>
+    </div>
+
+    <div class="clock">
+        <p id="clock"></p>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
+
+        <div class="box" onclick="window.location.href=''">
+            Soal-soal untuk ujian SMP akhir
+        </div>
+        <div class="box" onclick="window.location.href='https://englishtest.duolingo.com/applicants?utm_traffic=paid&utm_source=youtube&utm_medium=social-ad&utm_campaign=id_web_yt_ua_det_20231012_test-expansion_primary&utm_content=id-en_multi_yt_int_inmarket-englishtesters_x_1855_primary&utm_term=en_instantresults.animation-20s_vid_16x9_v000_b000_h000_signup&gclid=Cj0KCQjwsPCyBhD4ARIsAPaaRf0A9Kc-Qv1E5WGhHn1BtT4EUm2iKB80heWD8fbQro_GrDuK7sdt3D4aApvNEALw_wcB'">
+            belajar bahasa inggris yang rasa nya seperti game ?
+        </div>
+        <div class="box" onclick="window.location.href='https://forms.gle/Vq58awx1dpXqy6SB9'">
+            nilai web kami !
+        </div>
+    </div>
+    <div class="settings">
+        <button onclick="openSettings()">Settings</button>
+    </div>
+    <div class="world-clock" id="clock"></div>
+
+    <div id="settings-modal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeSettings()">&times;</span>
+            <ul>
+                <li onclick="showVersion()"> Versi Web</li>
+                <li onclick="playMusic()"> Lagu Pendamping</li>
+                <li onclick="adjustVolume()"> Volume Suara Lagu</li>
+                <li onclick="aboutWebsite()"> Tentang Web Ini</li>
+                
+            </ul>
+        </div>
+    </div>
+
+    <audio id="background-music" loop autoplay>
+        <source src="lost_sky.mp3.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+    
+    
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            setInterval(refreshPage, 1800000); // Refresh every 3 minutes
+
+            function refreshPage() {
+                location.reload();
+            }
+
+            function updateClock() {
+                const clockElement = document.getElementById("clock");
+                const now = new Date();
+                clockElement.innerText = now.toLocaleTimeString("en-GB", { timeZone: "Asia/Jakarta" });
+            }
+
+            setInterval(updateClock, 1000); // Update clock every second
+            updateClock(); // Initial call to display clock immediately
+        });
+
+        function openSettings() {
+            document.getElementById("settings-modal").style.display = "block";
+        }
+
+        function closeSettings() {
+            document.getElementById("settings-modal").style.display = "none";
+        }
+
+        function showVersion() {
+            alert("Versi Web: 1.0.0");
+        }
+
+        function playMusic() {
+            const music = document.getElementById("background-music");
+            music.play();
+        }
+
+        function adjustVolume() {
+            const music = document.getElementById("background-music");
+            const volume = prompt("Set volume (0.0 - 1.0):", "0.9");
+            if (volume !== null) {
+                music.volume = parseFloat(volume);
+            }
+        }
+
+        function aboutWebsite() {
+            window.location.href = "about.html"; // Assuming you have an about.html page
+        }
+    </script>
+</body>
+</html>
+
+
+

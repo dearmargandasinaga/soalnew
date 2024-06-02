@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pusat Bantuan Servis Website</title>
+    <marquee behavior="scroll" direction="left">Selamat datang di pusat bantuan servis website !,web ini juga masih dalam tahap developmen jadi jika terjadi bug mohon maaf sebesar besarnya !</marquee>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f2f2f2;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            background-color: #444;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        section {
+            padding: 20px;
+            margin: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Pusat Bantuan Servis Website</h1>
+    </header>
+    <nav>
+        <a href="#faq">FAQ</a>
+        <a href="#hubungi-kami">Hubungi Kami</a>
+    </nav>
+    <section id="faq">
+        <h2>Pertanyaan yang Sering Diajukan (FAQ)</h2>
+        <ul>
+            <li><strong>mengapa website tidak bisa di buka ?:</strong> coba anda membukanya sekali lagi kemungkinan ada masalah jaringan.</li>
+            <li><strong>mengapa saat membuka website malah ke link lain?:</strong> periksa sekali lagi alamat url anda karena pastikan alamat nya adalah alamat resmi url kami yaitu natural.com
+            <li><strong>web dapat di buka tetapi saat mengirim email ke kontak publiser tidak dapat terkirim ?:</strong>coba ulagi mengirim pesan anda ke alamat email kami jika tidak bisa anda dapat email manual ke kami yaitu natudms@gmail.com.</li>
+            <!-- Tambahkan lebih banyak pertanyaan dan jawaban di sini -->
+        </ul>
+    </section>
+    <section id="hubungi-kami">
+        <h2>Hubungi Kami</h2>
+        <p>Jika Anda memerlukan bantuan lebih lanjut, jangan ragu untuk menghubungi kami melalui formulir di bawah ini:</p>
+        <form action="proses_formulir.php" method="POST">
+            <label for="nama">Nama:</label><br>
+            <input type="text" id="nama" name="nama" required><br><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+            <label for="pesan">Pesan:</label><br>
+            <textarea id="pesan" name="pesan" rows="4" required></textarea><br><br>
+            <button type="submit">Kirim Pesan</button>
+        </form>
+    </section>
+    <footer>
+        <p>Hak Cipta &copy; 2024 Pusat Bantuan Servis Website natural </p>
+    </footer>
+</body>
+</html>
